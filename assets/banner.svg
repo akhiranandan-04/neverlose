@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Neverlose CS:GO community hub</title>
+  <desc id="desc">A dark tactical banner with a red accent, original geometric radar artwork, and the Neverlose community hub wordmark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07080b"/>
+      <stop offset="0.55" stop-color="#0c0f16"/>
+      <stop offset="1" stop-color="#171019"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b51f2c"/>
+      <stop offset="1" stop-color="#ff5562"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#e02d3c" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#8d1c27" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#07080b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <rect width="1600" height="500" fill="url(#grid)"/>
+  <circle cx="1340" cy="230" r="300" fill="url(#glow)"/>
+
+  <path d="M0 414L168 500H0Z" fill="#b51f2c" opacity="0.92"/>
+  <path d="M0 372L116 500H0Z" fill="#e02d3c" opacity="0.18"/>
+  <path d="M1040 0L1096 0L842 500L786 500Z" fill="#ffffff" opacity="0.025"/>
+  <path d="M1504 56V126" stroke="#e02d3c" stroke-width="2" opacity="0.7"/>
+  <path d="M1469 91H1539" stroke="#e02d3c" stroke-width="2" opacity="0.7"/>
+  <circle cx="1504" cy="91" r="3" fill="#ff5562"/>
+
+  <text x="1168" y="70" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.6">UNOFFICIAL COMMUNITY PROJECT</text>
+  <text x="1536" y="70" fill="#e02d3c" font-family="Consolas, monospace" font-size="12" letter-spacing="1.5">2026</text>
+
+  <g transform="translate(92 102)">
+    <rect width="96" height="96" rx="22" fill="#0b0e15" stroke="#e02d3c" stroke-opacity="0.55" stroke-width="1.5"/>
+    <path d="M28 69V31L68 69V31" fill="none" stroke="#f2f4f8" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M22 20V28M74 20V28M22 72V80M74 72V80" stroke="#ff5562" stroke-width="3"/>
+  </g>
+
+  <text x="218" y="181" font-family="Segoe UI, Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="3" fill="#f2f4f8">NEVER<tspan fill="#ff5562">LOSE</tspan></text>
+  <text x="222" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="8" fill="#8b94a7">CS:GO COMMUNITY HUB</text>
+
+  <text x="96" y="308" font-family="Segoe UI, Arial, sans-serif" font-size="23" fill="#d9dee8">Setup notes, configuration hygiene, and honest limits.</text>
+  <text x="96" y="342" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#8b94a7">Documentation for the legacy CS:GO client on Windows x64.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.8" fill="#c9cfdb">
+    <rect x="96" y="390" width="6" height="18" fill="#e02d3c"/>
+    <text x="114" y="405">SETUP</text>
+    <rect x="220" y="390" width="6" height="18" fill="#e02d3c"/>
+    <text x="238" y="405">CONFIG</text>
+    <rect x="360" y="390" width="6" height="18" fill="#e02d3c"/>
+    <text x="378" y="405">PREVIEWS</text>
+    <rect x="526" y="390" width="6" height="18" fill="#e02d3c"/>
+    <text x="544" y="405">DOWNLOAD</text>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="1340" cy="248" r="196" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="1340" cy="248" r="142" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+    <circle cx="1340" cy="248" r="82" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1"/>
+    <path d="M1100 248H1580M1340 8V488" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    <path d="M1340 248L1458 150" stroke="#e02d3c" stroke-width="2" opacity="0.7"/>
+    <path d="M1340 248L1268 338" stroke="#ff5562" stroke-width="2" opacity="0.45"/>
+    <circle cx="1458" cy="150" r="5" fill="#ff5562"/>
+    <circle cx="1268" cy="338" r="4" fill="#ff5562"/>
+    <circle cx="1340" cy="248" r="4" fill="#f2f4f8"/>
+    <path d="M1210 118L1234 94M1470 378L1446 402" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2"/>
+    <text x="1340" y="458" text-anchor="middle" fill="#8b94a7" font-family="Consolas, monospace" font-size="12" letter-spacing="2">LEGACY CLIENT / WINDOWS X64</text>
+  </g>
+
+  <text x="1240" y="492" fill="#ffffff" opacity="0.028" font-family="Segoe UI, Arial, sans-serif" font-size="330" font-weight="700">N</text>
+
+  <path d="M96 450H1504" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="96" y="480" fill="#6f788a" font-family="Consolas, monospace" font-size="12" letter-spacing="1.4">LEGACY CS:GO / WINDOWS 10 &amp; 11 X64</text>
+  <text x="1504" y="480" text-anchor="end" fill="#6f788a" font-family="Consolas, monospace" font-size="12" letter-spacing="1.4">DOWNLOAD / DOCS / CONFIG</text>
+</svg>

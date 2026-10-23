@@ -1,0 +1,22 @@
+name: Validate repository
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate links, assets, and policy
+        shell: powershell
+        run: ./scripts/validate.ps1

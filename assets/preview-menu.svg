@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative Neverlose menu concept</title>
+  <desc id="desc">An original dark interface concept with a feature sidebar, targeting controls, accuracy settings, and an anti-aim panel. This is not a game capture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090e"/>
+      <stop offset="1" stop-color="#0e1017"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b51f2c"/>
+      <stop offset="1" stop-color="#ff5562"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+
+  <rect width="1280" height="64" fill="#0b0e15"/>
+  <path d="M0 64H1280" stroke="#242a37"/>
+  <rect x="24" y="16" width="32" height="32" rx="8" fill="#0b0e15" stroke="#e02d3c" stroke-opacity="0.65"/>
+  <path d="M33 39V25L47 39V25" fill="none" stroke="#f2f4f8" stroke-width="3.5"/>
+  <text x="68" y="40" fill="#f2f4f8" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Neverlose</text>
+  <rect x="174" y="18" width="64" height="28" rx="5" fill="#1a1117" stroke="#7d1e28"/>
+  <text x="188" y="37" fill="#ff7d86" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">CS:GO</text>
+  <text x="1010" y="26" fill="#6f788a" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4">PROFILE</text>
+  <text x="1010" y="45" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">competitive</text>
+  <path d="M1114 20V46" stroke="#242a37"/>
+  <text x="1140" y="26" fill="#6f788a" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4">BUILD</text>
+  <text x="1140" y="45" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">current</text>
+  <circle cx="1238" cy="33" r="4" fill="#57d68d"/>
+  <text x="1250" y="37" fill="#8b94a7" font-family="Consolas, monospace" font-size="10">LOCAL</text>
+
+  <rect y="64" width="248" height="656" fill="#090c12"/>
+  <path d="M248 64V720" stroke="#242a37"/>
+  <text x="24" y="104" fill="#6f788a" font-family="Consolas, monospace" font-size="10" letter-spacing="2">FEATURES</text>
+
+  <rect x="12" y="124" width="224" height="44" rx="6" fill="#171017" stroke="#3d1a20"/>
+  <rect x="12" y="124" width="3" height="44" fill="#e02d3c"/>
+  <text x="34" y="151" fill="#f2f4f8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Ragebot</text>
+  <text x="216" y="151" text-anchor="end" fill="#8b4d55" font-family="Consolas, monospace" font-size="10">01</text>
+
+  <text x="34" y="203" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Legitbot</text>
+  <text x="216" y="203" text-anchor="end" fill="#3d4351" font-family="Consolas, monospace" font-size="10">02</text>
+  <text x="34" y="255" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Visuals</text>
+  <text x="216" y="255" text-anchor="end" fill="#3d4351" font-family="Consolas, monospace" font-size="10">03</text>
+  <text x="34" y="307" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Movement</text>
+  <text x="216" y="307" text-anchor="end" fill="#3d4351" font-family="Consolas, monospace" font-size="10">04</text>
+  <text x="34" y="359" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Misc</text>
+  <text x="216" y="359" text-anchor="end" fill="#3d4351" font-family="Consolas, monospace" font-size="10">05</text>
+  <text x="34" y="411" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Scripts</text>
+  <text x="216" y="411" text-anchor="end" fill="#3d4351" font-family="Consolas, monospace" font-size="10">06</text>
+  <text x="34" y="463" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Configs</text>
+  <text x="216" y="463" text-anchor="end" fill="#3d4351" font-family="Consolas, monospace" font-size="10">07</text>
+
+  <text x="24" y="530" fill="#6f788a" font-family="Consolas, monospace" font-size="10" letter-spacing="2">SYSTEM</text>
+  <text x="34" y="560" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Settings</text>
+  <text x="216" y="560" text-anchor="end" fill="#3d4351" font-family="Consolas, monospace" font-size="10">08</text>
+
+  <rect x="16" y="596" width="216" height="96" rx="8" fill="#0c1018" stroke="#242a37"/>
+  <text x="32" y="620" fill="#6f788a" font-family="Consolas, monospace" font-size="9" letter-spacing="1.4">TARGET CLIENT</text>
+  <text x="32" y="642" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">CS:GO legacy</text>
+  <text x="32" y="660" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="11">Windows 10 / 11 x64</text>
+  <path d="M32 674H216" stroke="#242a37"/>
+  <text x="32" y="688" fill="#6f788a" font-family="Consolas, monospace" font-size="9">DOCS ONLY / NO BINARIES</text>
+
+  <text x="282" y="108" fill="#f2f4f8" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Ragebot</text>
+  <text x="282" y="134" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="13">Target selection, accuracy, and per-weapon behavior.</text>
+  <rect x="1056" y="90" width="182" height="28" rx="4" fill="#10141d" stroke="#2b3140"/>
+  <text x="1070" y="108" fill="#8b94a7" font-family="Consolas, monospace" font-size="10" letter-spacing="1.2">CONCEPT LAYOUT</text>
+  <path d="M282 152H1238" stroke="#242a37"/>
+
+  <rect x="282" y="168" width="466" height="300" rx="8" fill="#0b0e15" stroke="#242a37"/>
+  <text x="302" y="196" fill="#ff6f79" font-family="Consolas, monospace" font-size="11" letter-spacing="2">TARGETING</text>
+  <path d="M302 210H728" stroke="#1d232e"/>
+
+  <text x="302" y="244" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Enable</text>
+  <rect x="676" y="232" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="709" cy="243" r="8" fill="#ffffff"/>
+
+  <text x="302" y="284" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Auto fire</text>
+  <rect x="676" y="272" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="709" cy="283" r="8" fill="#ffffff"/>
+
+  <text x="302" y="324" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Hitchance</text>
+  <text x="720" y="324" text-anchor="end" fill="#f2f4f8" font-family="Consolas, monospace" font-size="13">68%</text>
+  <rect x="302" y="338" width="410" height="4" rx="2" fill="#222836"/>
+  <rect x="302" y="338" width="279" height="4" rx="2" fill="url(#red)"/>
+  <circle cx="581" cy="340" r="6" fill="#ff7d86"/>
+
+  <text x="302" y="378" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Minimum damage</text>
+  <rect x="642" y="358" width="78" height="28" rx="4" fill="#111620" stroke="#2b3140"/>
+  <text x="681" y="377" text-anchor="middle" fill="#f2f4f8" font-family="Consolas, monospace" font-size="13">30</text>
+
+  <text x="302" y="416" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Target selection</text>
+  <rect x="560" y="396" width="160" height="28" rx="4" fill="#111620" stroke="#2b3140"/>
+  <text x="576" y="415" fill="#f2f4f8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Cycle</text>
+  <path d="M696 407L702 413L708 407" fill="none" stroke="#8b94a7" stroke-width="2"/>
+
+  <rect x="766" y="168" width="472" height="300" rx="8" fill="#0b0e15" stroke="#242a37"/>
+  <text x="786" y="196" fill="#ff6f79" font-family="Consolas, monospace" font-size="11" letter-spacing="2">ACCURACY</text>
+  <path d="M786 210H1218" stroke="#1d232e"/>
+
+  <text x="786" y="244" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Backtrack</text>
+  <rect x="1168" y="232" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="1201" cy="243" r="8" fill="#ffffff"/>
+
+  <text x="786" y="284" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Delay shot</text>
+  <rect x="1168" y="272" width="44" height="22" rx="11" fill="#1b2130" stroke="#303747"/>
+  <circle cx="1179" cy="283" r="8" fill="#697386"/>
+
+  <text x="786" y="324" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Quick stop</text>
+  <rect x="1168" y="312" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="1201" cy="323" r="8" fill="#ffffff"/>
+
+  <text x="786" y="366" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="12">Hitboxes</text>
+  <rect x="786" y="378" width="72" height="28" rx="4" fill="#3d151b" stroke="#8d2731"/>
+  <text x="822" y="397" text-anchor="middle" fill="#ff9ca3" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">Head</text>
+  <rect x="866" y="378" width="82" height="28" rx="4" fill="#111620" stroke="#2b3140"/>
+  <text x="907" y="397" text-anchor="middle" fill="#b6bdcb" font-family="Segoe UI, Arial, sans-serif" font-size="11">Chest</text>
+  <rect x="956" y="378" width="104" height="28" rx="4" fill="#111620" stroke="#2b3140"/>
+  <text x="1008" y="397" text-anchor="middle" fill="#b6bdcb" font-family="Segoe UI, Arial, sans-serif" font-size="11">Stomach</text>
+
+  <text x="786" y="442" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="12">Field of view</text>
+  <text x="1212" y="442" text-anchor="end" fill="#f2f4f8" font-family="Consolas, monospace" font-size="13">90</text>
+  <rect x="786" y="454" width="426" height="4" rx="2" fill="#222836"/>
+  <rect x="786" y="454" width="320" height="4" rx="2" fill="url(#red)"/>
+  <circle cx="1106" cy="456" r="6" fill="#ff7d86"/>
+
+  <rect x="282" y="488" width="956" height="148" rx="8" fill="#0b0e15" stroke="#242a37"/>
+  <text x="302" y="516" fill="#ff6f79" font-family="Consolas, monospace" font-size="11" letter-spacing="2">ANTI-AIM</text>
+  <path d="M302 530H1218" stroke="#1d232e"/>
+
+  <text x="302" y="558" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="12">Standing</text>
+  <rect x="302" y="570" width="240" height="30" rx="4" fill="#111620" stroke="#2b3140"/>
+  <text x="318" y="590" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Default</text>
+
+  <text x="606" y="558" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="12">Moving</text>
+  <rect x="606" y="570" width="240" height="30" rx="4" fill="#111620" stroke="#2b3140"/>
+  <text x="622" y="590" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Default</text>
+
+  <text x="910" y="558" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="12">Air</text>
+  <rect x="910" y="570" width="240" height="30" rx="4" fill="#111620" stroke="#2b3140"/>
+  <text x="926" y="590" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Default</text>
+
+  <text x="302" y="626" fill="#5e6677" font-family="Segoe UI, Arial, sans-serif" font-size="10">Rotation and jitter behavior depends on the current build and configuration.</text>
+
+  <path d="M282 664H1238" stroke="#242a37"/>
+  <text x="282" y="694" fill="#6f788a" font-family="Consolas, monospace" font-size="10" letter-spacing="1.2">ILLUSTRATIVE PREVIEW / NOT A GAME CAPTURE</text>
+  <text x="1238" y="694" text-anchor="end" fill="#6f788a" font-family="Consolas, monospace" font-size="10" letter-spacing="1.2">NEVERLOSE / CS:GO</text>
+</svg>

@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative Neverlose visuals concept</title>
+  <desc id="desc">An original top-down tactical map concept with player boxes, a radar, and a visual settings panel. This is not a game screenshot.</desc>
+  <defs>
+    <linearGradient id="map" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b11"/>
+      <stop offset="1" stop-color="#0b1018"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e15"/>
+      <stop offset="1" stop-color="#0e1119"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="48%" r="68%">
+      <stop offset="0.35" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="720" fill="url(#map)"/>
+  <rect width="900" height="720" fill="url(#grid)"/>
+
+  <path d="M90 650L270 500L470 320L720 170" fill="none" stroke="#1a222e" stroke-width="64" stroke-linecap="square"/>
+  <path d="M180 100L340 240L520 310L700 480L820 650" fill="none" stroke="#151c26" stroke-width="54" stroke-linecap="square"/>
+  <path d="M80 360L300 330L520 310L760 220" fill="none" stroke="#151c26" stroke-width="40" stroke-linecap="square"/>
+  <path d="M90 650L270 500L470 320L720 170" fill="none" stroke="#232c3a" stroke-width="1" opacity="0.65"/>
+  <path d="M180 100L340 240L520 310L700 480L820 650" fill="none" stroke="#232c3a" stroke-width="1" opacity="0.55"/>
+
+  <rect x="274" y="162" width="146" height="110" rx="6" fill="#0e141d" stroke="#303948" stroke-width="1.5"/>
+  <text x="347" y="228" text-anchor="middle" fill="#566173" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">A</text>
+  <text x="347" y="250" text-anchor="middle" fill="#677184" font-family="Consolas, monospace" font-size="9" letter-spacing="1.6">SITE A</text>
+
+  <rect x="612" y="430" width="146" height="110" rx="6" fill="#0e141d" stroke="#303948" stroke-width="1.5"/>
+  <text x="685" y="496" text-anchor="middle" fill="#566173" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">B</text>
+  <text x="685" y="518" text-anchor="middle" fill="#677184" font-family="Consolas, monospace" font-size="9" letter-spacing="1.6">SITE B</text>
+
+  <circle cx="486" cy="318" r="42" fill="#0b1119" stroke="#2d3746" stroke-width="1.5"/>
+  <text x="486" y="322" text-anchor="middle" fill="#677184" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4">MID</text>
+
+  <text x="70" y="650" fill="#4f5a6c" font-family="Consolas, monospace" font-size="9" letter-spacing="1.8">T SPAWN</text>
+  <text x="736" y="70" fill="#4f5a6c" font-family="Consolas, monospace" font-size="9" letter-spacing="1.8">CT SPAWN</text>
+
+  <rect x="20" y="20" width="230" height="32" rx="4" fill="#0a0d13" fill-opacity="0.8" stroke="#242b38"/>
+  <text x="34" y="40" fill="#8b94a7" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4">CONCEPT MAP / LEGACY CS:GO</text>
+
+  <g transform="translate(94 114)">
+    <circle r="58" fill="#0a0e15" fill-opacity="0.82" stroke="#2b3443"/>
+    <circle r="38" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle r="18" fill="none" stroke="#ffffff" stroke-opacity="0.14"/>
+    <path d="M-58 0H58M0-58V58" stroke="#ffffff" stroke-opacity="0.08"/>
+    <path d="M0 0L30-24" stroke="#e02d3c" stroke-width="1.5"/>
+    <circle cx="30" cy="-24" r="3" fill="#ff5562"/>
+    <circle cx="-14" cy="22" r="3" fill="#57d68d"/>
+    <circle cx="8" cy="34" r="2.5" fill="#d9a441"/>
+  </g>
+
+  <g>
+    <rect x="444" y="244" width="58" height="104" fill="#e02d3c" fill-opacity="0.05" stroke="#ff5562" stroke-width="1.5"/>
+    <path d="M444 244H502M444 348H502" stroke="#ff5562" stroke-width="3"/>
+    <rect x="444" y="238" width="112" height="16" rx="2" fill="#160b0e" stroke="#5c1d24"/>
+    <text x="450" y="250" fill="#ff9ca3" font-family="Consolas, monospace" font-size="9" letter-spacing="0.8">ENEMY / 42 HP</text>
+    <rect x="444" y="354" width="58" height="4" rx="2" fill="#241017"/>
+    <rect x="444" y="354" width="24" height="4" rx="2" fill="#ff5562"/>
+  </g>
+
+  <g>
+    <rect x="646" y="342" width="54" height="94" fill="#e02d3c" fill-opacity="0.04" stroke="#ff5562" stroke-width="1.5"/>
+    <path d="M646 342H700M646 436H700" stroke="#ff5562" stroke-width="3"/>
+    <rect x="646" y="336" width="116" height="16" rx="2" fill="#160b0e" stroke="#5c1d24"/>
+    <text x="652" y="348" fill="#ff9ca3" font-family="Consolas, monospace" font-size="9" letter-spacing="0.8">ENEMY / 100 HP</text>
+    <rect x="646" y="442" width="54" height="4" rx="2" fill="#241017"/>
+  </g>
+
+  <g>
+    <rect x="696" y="540" width="50" height="88" fill="#57d68d" fill-opacity="0.04" stroke="#57d68d" stroke-width="1.5"/>
+    <path d="M696 540H746M696 628H746" stroke="#57d68d" stroke-width="3"/>
+    <rect x="696" y="534" width="124" height="16" rx="2" fill="#0b1711" stroke="#24543a"/>
+    <text x="702" y="546" fill="#a7e9c3" font-family="Consolas, monospace" font-size="9" letter-spacing="0.8">TEAM / 87 HP</text>
+    <rect x="696" y="634" width="50" height="4" rx="2" fill="#0f2419"/>
+    <rect x="696" y="634" width="36" height="4" rx="2" fill="#57d68d"/>
+  </g>
+
+  <g transform="translate(486 360)">
+    <path d="M-18 0H-6M6 0H18M0-18V-6M0 6V18" stroke="#f2f4f8" stroke-width="2"/>
+    <circle r="2" fill="#ff5562"/>
+  </g>
+
+  <rect width="900" height="720" fill="url(#vignette)"/>
+  <text x="20" y="696" fill="#5e6879" font-family="Consolas, monospace" font-size="9" letter-spacing="1.4">ILLUSTRATIVE PREVIEW / NOT A GAME CAPTURE</text>
+
+  <rect x="900" width="380" height="720" fill="url(#panel)"/>
+  <path d="M900 0V720" stroke="#242a37"/>
+
+  <text x="924" y="58" fill="#f2f4f8" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Visuals</text>
+  <text x="924" y="82" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="12">Player and world rendering.</text>
+  <path d="M924 100H1256" stroke="#242a37"/>
+
+  <text x="924" y="132" fill="#ff6f79" font-family="Consolas, monospace" font-size="10" letter-spacing="2">PLAYERS</text>
+
+  <text x="924" y="168" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Player ESP</text>
+  <rect x="1208" y="156" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="1241" cy="167" r="8" fill="#ffffff"/>
+
+  <text x="924" y="208" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Chams</text>
+  <rect x="1208" y="196" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="1241" cy="207" r="8" fill="#ffffff"/>
+
+  <text x="924" y="248" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Glow</text>
+  <rect x="1208" y="236" width="44" height="22" rx="11" fill="#1b2130" stroke="#303747"/>
+  <circle cx="1219" cy="247" r="8" fill="#697386"/>
+
+  <text x="924" y="288" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Health bar</text>
+  <rect x="1208" y="276" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="1241" cy="287" r="8" fill="#ffffff"/>
+
+  <path d="M924 316H1256" stroke="#242a37"/>
+  <text x="924" y="348" fill="#ff6f79" font-family="Consolas, monospace" font-size="10" letter-spacing="2">WORLD</text>
+
+  <text x="924" y="384" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">World color</text>
+  <rect x="1208" y="372" width="44" height="22" rx="11" fill="#e02d3c"/>
+  <circle cx="1241" cy="383" r="8" fill="#ffffff"/>
+
+  <text x="924" y="424" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Smoke</text>
+  <rect x="1208" y="412" width="44" height="22" rx="11" fill="#1b2130" stroke="#303747"/>
+  <circle cx="1219" cy="423" r="8" fill="#697386"/>
+
+  <text x="924" y="464" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Skybox</text>
+  <rect x="1208" y="452" width="44" height="22" rx="11" fill="#1b2130" stroke="#303747"/>
+  <circle cx="1219" cy="463" r="8" fill="#697386"/>
+
+  <path d="M924 492H1256" stroke="#242a37"/>
+  <text x="924" y="524" fill="#ff6f79" font-family="Consolas, monospace" font-size="10" letter-spacing="2">COLORS</text>
+
+  <rect x="924" y="546" width="46" height="28" rx="4" fill="#e02d3c"/>
+  <text x="982" y="564" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Enemy</text>
+  <rect x="1064" y="546" width="46" height="28" rx="4" fill="#57d68d"/>
+  <text x="1122" y="564" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Team</text>
+
+  <rect x="924" y="590" width="46" height="28" rx="4" fill="#d9a441"/>
+  <text x="982" y="608" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Accent</text>
+  <rect x="1064" y="590" width="46" height="28" rx="4" fill="#8b5cf6"/>
+  <text x="1122" y="608" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Script</text>
+
+  <rect x="924" y="638" width="332" height="8" rx="4" fill="#191f2a"/>
+  <rect x="924" y="638" width="214" height="8" rx="4" fill="#e02d3c"/>
+  <text x="924" y="668" fill="#6f788a" font-family="Consolas, monospace" font-size="9" letter-spacing="1.2">WORLD TINT / CONCEPT CONTROL</text>
+  <path d="M924 684H1256" stroke="#242a37"/>
+  <text x="924" y="706" fill="#5e6879" font-family="Consolas, monospace" font-size="9" letter-spacing="1.1">ILLUSTRATIVE PREVIEW / NOT A GAME CAPTURE</text>
+</svg>

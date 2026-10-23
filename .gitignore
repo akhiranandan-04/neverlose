@@ -1,0 +1,28 @@
+# binaries and archives
+*.exe
+*.dll
+*.sys
+*.msi
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+
+# local and private data
+*.log
+*.tmp
+*.bak
+private/
+configs/private/
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# operating system noise
+Thumbs.db
+desktop.ini
+.DS_Store

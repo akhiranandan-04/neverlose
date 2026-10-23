@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Neverlose community hub mark</title>
+  <desc id="desc">An original angular N mark inside a dark rounded square with red crosshair accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080a0f"/>
+      <stop offset="1" stop-color="#171019"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b51f2c"/>
+      <stop offset="1" stop-color="#ff5562"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="248" height="248" rx="54" fill="url(#bg)" stroke="#2b303d" stroke-width="2"/>
+  <path d="M30 78V42M30 214V178M226 78V42M226 214V178" stroke="#e02d3c" stroke-width="6" stroke-linecap="round"/>
+  <path d="M58 64H196" stroke="#e02d3c" stroke-width="6" stroke-linecap="round"/>
+  <path d="M58 192H196" stroke="#e02d3c" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 180V76L192 180V76" fill="none" stroke="#f2f4f8" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M64 76L192 180" stroke="url(#red)" stroke-width="8" stroke-opacity="0.85"/>
+  <circle cx="128" cy="128" r="7" fill="#ff5562"/>
+</svg>

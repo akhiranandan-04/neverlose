@@ -1,0 +1,40 @@
+name: Documentation issue
+description: Report a broken link, incorrect step, or missing detail.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include account credentials, Steam sessions, API keys, or personal
+        data. This form is for documentation problems, not vendor support.
+  - type: input
+    id: location
+    attributes:
+      label: Page or file
+      description: Path or URL of the page with the problem.
+      placeholder: "docs/installation.md"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe what is incorrect, missing, outdated, or broken.
+      placeholder: "The extraction step omits the case where the archive is incomplete."
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: If you know the correct wording or step, add it here.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I removed account names, tokens, and personal data.
+          required: true
+        - label: This is a documentation issue, not a request for vendor support.
+          required: true
